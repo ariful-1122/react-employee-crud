@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import AddEmployee from "./components/Employee/AddEmployee/AddEmployee";
 import "./App.css";
 import EmployeeList from "./components/Employee/EmployeeList/EmployeeList";
+import ErrorModal from "./components/UI/ErrorModal";
 
 const App = () => {
+  // const [showModal, setShowModal] = useState();
+  // const [isDeleteConfirm, setIsDeleteConfirm] = useState(false);
+
   const Dummy_List = [
     {
       id: "one",
@@ -38,6 +42,7 @@ const App = () => {
       const updated = prevEmp.filter((emp) => emp.id !== id);
       return updated;
     });
+
     console.log(id);
   };
 

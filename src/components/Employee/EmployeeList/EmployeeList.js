@@ -3,10 +3,6 @@ import Card from "../../UI/Card";
 import classes from "./EmployeeList.module.css";
 
 const EmployeeList = (props) => {
-  const deleteEmployee = (props) => {
-    props.onDelete(props.employees.map((emp) => emp.id));
-  };
-
   return (
     <div>
       {props.employees.map((employee) => (
