@@ -1,0 +1,12 @@
+.button {
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: #7178b0;
+  margin: 10px 0;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: springgreen;
+}

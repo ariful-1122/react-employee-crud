@@ -1,0 +1,33 @@
+.list_wrapper {
+  width: 40rem;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+
+.list_wrapper div {
+  padding: 14px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions p {
+  margin-right: 10px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-out;
+}
+
+.actions p:hover {
+  border-bottom: 2px solid rgb(109, 255, 129);
+}
+
+.actions p img {
+  width: 40px;
+}

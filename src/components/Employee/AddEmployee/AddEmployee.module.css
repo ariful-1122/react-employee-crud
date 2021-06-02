@@ -1,0 +1,38 @@
+.wrapper {
+  margin: 10px auto;
+  width: 35rem;
+  max-width: 80%;
+}
+
+.form {
+  padding: 10px;
+}
+
+.form_controls {
+  margin: 8px 20px;
+}
+
+/* .form_controls.invalid input,
+.form_controls.invalid select {
+  border: rgb(245, 127, 72);
+  background-color: rgb(243, 105, 105);
+} */
+
+.form_controls label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form_controls input,
+select {
+  width: 100%;
+  padding: 6px;
+  color: slateblue;
+  font-size: 18px;
+  border: 1px solid skyblue;
+  border-radius: 3px;
+}
+
+.form_controls select option {
+  border-bottom: 1px solid slateblue;
+}
